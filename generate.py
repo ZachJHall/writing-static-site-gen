@@ -3,7 +3,7 @@ import os
 
 def genPost(file):
     name = file.split('.')[0]
-    command = ['pandoc', '-s', '-B', 'nonPosts/header.html', 'markdown/' +str(file), '-o', 'public/posts/' + str(name)+'.html']
+    command = ['pandoc', '-s', '-B', 'public/header.html', 'markdown/' +str(file), '-o', 'public/posts/' + str(name)+'.html']
     subprocess.check_call(command)
 
 def createPosts(dir):
