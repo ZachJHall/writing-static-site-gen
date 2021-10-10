@@ -1,5 +1,5 @@
 [build]
-  command = "python generate.py"
+  command = "python3 generate.py"
   publish = "public/"
 
 [markup]
