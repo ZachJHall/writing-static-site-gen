@@ -2,5 +2,3 @@
   command = "python generate.py"
   publish = "public/"
 
-[markup]
-  defaultMarkdownHandler = "pandoc"
