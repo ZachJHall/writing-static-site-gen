@@ -52,7 +52,7 @@ def main():
     if not os.path.exists("public/posts"):
         os.mkdir("public/posts")
     posts = createPosts('markdown')
-    posts.sort(key = lambda post: datetime.strptime((post['date']), '%m-%d-%y'))
+    posts.sort(key = lambda post: datetime.strptime((post['date']), '%m-%d-%y'), reverse=True)
 
     insertLinks("public/index.html", posts)
     
