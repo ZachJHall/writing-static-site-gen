@@ -1,8 +1,6 @@
 ---
-date: 10-9-21
-
+date: 10-12-21
 title: Handling network calls using Axios Interceptors
-
 type: TIL
 ---
 
